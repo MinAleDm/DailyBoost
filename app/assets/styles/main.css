@@ -5,8 +5,16 @@
   --card: #ffffff;
   --line: rgba(15, 28, 42, 0.08);
   --accent: #0f7173;
+  --accent-2: #2f6fed;
   --accent-warm: #ff5c3d;
+  --accent-warm-2: #e67e22;
   --success: #198754;
+  --bg-orb-1: rgba(15, 113, 115, 0.2);
+  --bg-orb-2: rgba(255, 92, 61, 0.15);
+  --bg-base-1: #f8fafc;
+  --bg-base-2: #eef4f7;
+  --hero-orb-1: rgba(15, 113, 115, 0.2);
+  --hero-orb-2: rgba(47, 111, 237, 0.05);
   --shadow: 0 22px 50px rgba(10, 25, 40, 0.12);
 }
 
@@ -20,9 +28,9 @@ body {
   font-family: 'Manrope', 'Segoe UI', sans-serif;
   color: var(--ink);
   background:
-    radial-gradient(circle at 12% 15%, rgba(15, 113, 115, 0.2), transparent 28%),
-    radial-gradient(circle at 88% 4%, rgba(255, 92, 61, 0.15), transparent 32%),
-    linear-gradient(180deg, #f8fafc 0%, #eef4f7 100%);
+    radial-gradient(circle at 12% 15%, var(--bg-orb-1), transparent 28%),
+    radial-gradient(circle at 88% 4%, var(--bg-orb-2), transparent 32%),
+    linear-gradient(180deg, var(--bg-base-1) 0%, var(--bg-base-2) 100%);
 }
 
 h1,
@@ -68,7 +76,7 @@ p {
   width: 280px;
   aspect-ratio: 1;
   border-radius: 999px;
-  background: linear-gradient(130deg, rgba(15, 113, 115, 0.2), rgba(47, 111, 237, 0.05));
+  background: linear-gradient(130deg, var(--hero-orb-1), var(--hero-orb-2));
 }
 
 .eyebrow {
@@ -241,7 +249,7 @@ select:focus {
 }
 
 .primary-btn {
-  background: linear-gradient(130deg, var(--accent) 0%, #2f6fed 100%);
+  background: linear-gradient(130deg, var(--accent) 0%, var(--accent-2) 100%);
   color: #fff;
   font-weight: 700;
 }
@@ -417,11 +425,11 @@ select:focus {
 .progress-fill {
   display: block;
   height: 100%;
-  background: linear-gradient(130deg, var(--accent), #2f6fed);
+  background: linear-gradient(130deg, var(--accent), var(--accent-2));
 }
 
 .progress-fill.warm {
-  background: linear-gradient(130deg, var(--accent-warm), #e67e22);
+  background: linear-gradient(130deg, var(--accent-warm), var(--accent-warm-2));
 }
 
 .heatmap-grid {
