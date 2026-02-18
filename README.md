@@ -1,3 +1,7 @@
+[![Deploy to GitHub Pages](https://github.com/MinAleDm/DailyBoost/actions/workflows/pages.yml/badge.svg)](https://github.com/MinAleDm/DailyBoost/actions/workflows/pages.yml)
+[![Nuxt 4](https://img.shields.io/badge/Nuxt-4-00DC82?logo=nuxt&logoColor=white)](https://nuxt.com/)
+[![License: MIT](https://img.shields.io/github/license/MinAleDm/DailyBoost)](https://github.com/MinAleDm/DailyBoost/blob/main/LICENSE)
+
 # DailyBoost
 
 DailyBoost — современный трекер задач и привычек на Nuxt 4.
