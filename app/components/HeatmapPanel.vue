@@ -42,7 +42,7 @@ const rangeLabel = computed(() => {
 <template>
   <section class="panel-card">
     <div class="section-head">
-      <h2>Тепловая карта за 4 недели</h2>
+      <h2>Дорожная карта за 4 недели</h2>
       <p>{{ rangeLabel }}</p>
     </div>
 
